@@ -4,5 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Kevin Altman <kevin@itsthatguy.com>",
-  "repository": "https://github.com/itsthatguy/hanau"
+  "repository": "https://github.com/itsthatguy/hanau",
+  "bin": {
+    "hanau": "./bin/hanau.js"
+  },
+  "dependencies": {
+    "download-git-repo": "^1.0.0",
+    "fs-extra": "^2.1.2"
+  }
 }
