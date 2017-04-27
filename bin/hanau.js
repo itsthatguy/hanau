@@ -31,6 +31,7 @@ inquirer
 ])
 .then((answers) => {
   if (answers.basePackage === 'Cancel') return exiting();
+
   const pkgPath = `${BASE_URL}${answers.basePackage}`;
 
   svn.commands.export(pkgPath, process.cwd(), {force: true}, (error) => {
