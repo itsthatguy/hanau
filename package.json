@@ -9,7 +9,8 @@
     "hanau": "./bin/hanau.js"
   },
   "dependencies": {
-    "download-git-repo": "^1.0.0",
-    "fs-extra": "^2.1.2"
+    "fs-extra": "^2.1.2",
+    "inquirer": "^3.0.6",
+    "node-svn-ultimate": "^1.0.4"
   }
 }
