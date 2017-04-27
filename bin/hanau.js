@@ -6,7 +6,7 @@ const inquirer = require('inquirer');
 
 const packageJson = require('../package.json');
 
-const BASE_URL = 'https://github.com/itsthatguy/base-react-app/branches/multiple-base-apps/';
+const BASE_URL = 'https://github.com/itsthatguy/base-react-app/branches/master/';
 const FILES_TO_REMOVE = [
   'yarn.lock',
 ];
